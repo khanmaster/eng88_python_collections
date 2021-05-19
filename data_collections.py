@@ -1,14 +1,7 @@
-# Python Data Collection
+# Lists
+# Syntax []
+# CRUD CREATE READ UPDATE DELETE
 
-
-- Lists
-- Tuples
-- Dictionaries
-- sets
-
-### What are Data collections
-
-```python
 shopping_list = ["juice", "strawberries", "yogurt", "chicken", "rasberries", "butter"]
             #      0           1             2           3          4           5
 print(shopping_list)
@@ -32,5 +25,3 @@ print(shopping_list)
 shopping_list.pop() # pop() removes the last item from the list
 print(shopping_list)
 
-
-```
