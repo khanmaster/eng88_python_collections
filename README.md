@@ -48,4 +48,25 @@ essentials = ("eggs", "milk", "bread")
 print(essentials)
 
 ```
- 
+#### What are dictionaries?
+- structured as KEY = VALUE
+- VALUE could be string, int, list
+- Syntax {}
+```python
+student_1 = {
+    "name": " shahrukh",
+    "key": " value ",
+    "stream": "Cyber Security ", # string
+    "completed_lessons": 3, # int
+    "complete_lessons_names": ["variables", "operators", "data_collections"] # list
+
+}
+#print(student_1)
+print(student_1["name"])
+print(student_1["stream"])
+print(student_1["complete_lessons_names"])
+# display only OPERATORS FROM THE LIST INSIDE DICTIONARY -
+print(student_1.keys())
+print(student_1.values())
+
+```
