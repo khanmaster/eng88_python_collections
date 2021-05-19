@@ -32,8 +32,20 @@ print(shopping_list)
 shopping_list.pop() # pop() removes the last item from the list
 print(shopping_list)
 
+### Tuples?
 
 ```
-### Tuples?
-- Tuples are IMMUTABLE
+
+- 
+
+```python
+# Tuples are IMMUTABLE
+# Syntax name = ()
+# use cases
+
+essentials = ("eggs", "milk", "bread")
+             #  0      1        2
+print(essentials)
+
+```
  
