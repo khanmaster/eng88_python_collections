@@ -1,12 +1,12 @@
 # Python Data Collection
-
+## What are Data collections
 
 - Lists
 - Tuples
 - Dictionaries
 - sets
 
-### What are Data collections
+### Lists are MUTABLE
 
 ```python
 shopping_list = ["juice", "strawberries", "yogurt", "chicken", "rasberries", "butter"]
@@ -34,3 +34,6 @@ print(shopping_list)
 
 
 ```
+### Tuples?
+- Tuples are IMMUTABLE
+ 
