@@ -64,9 +64,29 @@ student_1 = {
 #print(student_1)
 print(student_1["name"])
 print(student_1["stream"])
-print(student_1["complete_lessons_names"])
+print(student_1["complete_lessons_names"][1])
 # display only OPERATORS FROM THE LIST INSIDE DICTIONARY -
 print(student_1.keys())
 print(student_1.values())
 
+```
+
+```python
+# Sets are data collection the difference is that they are UNORDERED
+# Syntax name = {}
+
+car_parts = {"wheels", "doors", "engine"}
+print(car_parts)
+
+# Can we add any new parts?
+car_parts.add("windows")
+print(car_parts)
+
+# Can we remove an item
+car_parts.discard("doors")
+print(car_parts)
+
+# Frozen sets they are like Tuples
+frozen_set = ([1,3,5,6])
+print(frozen_set)
 ```
